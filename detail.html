@@ -1,24 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail</title>
-</head>
-<body>
-    <div>
-    <div>
-        <img src="/assests/images/logo.png" height="100px" width="150px" alt="logo">
-        <br>
-        header div
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="styles/detail.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <a href="index.html">
+          <img class="logo-img" src="assests/images/logo.png" alt="logo"
+        /></a>
+        <a href="login.html">Login</a>
+      </div>
+      <div class="content">
+        <div class="content-redisson-img">
+          <img
+            class="redisson-img"
+            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+            alt="Redisson"
+          />
+        </div>
+        <div class="redisson-text">
+          <div class="details_form-container">
+            <form action="index.html" class="details-form" autocomplete="off">
+              <label for="adults">Adults:</label>
+              <input
+                type="number"
+                name="adults"
+                id="adults"
+                value="1"
+                min="1"
+                required
+                autocomplete="off"
+              /><br />
+              <label for="name">Username:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                autocomplete="off"
+              /><br />
+              <label for="date">From Date:</label>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                required
+                autocomplete="off"
+              />
+              <br />
+              <label for="date">To Date:</label>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                required
+                autocomplete="off"
+              />
+              <br />
+              <label for="price">Total:</label>
+              <input type="text" name="total" id="price" maxlength="0" /><br />
+              <input type="submit" value="Book Now" />
+            </form>
+          </div>
+          <h2>Redisson Blu Hotel</h2>
+          <p>RATING</p>
+          <p>5 Star</p>
+          <p>AMENITIES</p>
+          <ul>
+            <li>Room Service</li>
+            <li>Restaurant</li>
+            <li>Business Center</li>
+            <li>Fitness Center</li>
+            <li>Pool</li>
+          </ul>
+          <h5>DESCRIPTION</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            voluptates pariatur enim voluptate. Maxime similique atque amet illo
+            incidunt doloremque, nisi ad in iusto. Quis minus nam praesentium
+            corrupti amet.
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        <footer>
+          <div class="contact-ftr">
+            <a href="contact.html">Contact US</a>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/facebook.png"
+                alt="Facebook"
+            /></a>
+            <a href="https://www.instagram.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/instagram.png"
+                alt="instagram"
+            /></a>
+            <a href="https://www.twitter.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/twitter.png"
+                alt="twitter"
+            /></a>
+          </div>
+          <div class="copy_right-ftr">
+            <p>&#169; 2022 ROOM SEARCH PVT.LTD.</p>
+          </div>
+        </footer>
+      </div>
     </div>
-    <div>
-        content div
-    </div>
-    <div>
-        footer div
-    </div>
-</div>
-</body>
-</html> 
+  </body>
+</html>

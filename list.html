@@ -10,20 +10,22 @@
   </head>
   <body>
     <div class="main-container">
-      <div class="header">
+      <header class="header">
         <a href="index.html">
           <img class="logo-img" src="assests/images/logo.png" alt="logo"
         /></a>
         <a href="login.html">Login</a>
-      </div>
-      <div class="content">
+      </header>
+
+      <section class="content">
         <div class="content-list">
           <ul>
-            <a href="#"><li>List View</li></a>
-            <a href="#"><li>Map View</li></a>
+            <a href="#hotel_view"><li>List View</li></a>
+            <a href="#content-map"><li>Map View</li></a>
           </ul>
         </div>
-        <div class="content-hotel-delhi">
+
+        <div class="content-hotel-delhi" id="hotel_view">
           <div class="hotel-redisson">
             <a href="detail.html">
               <img
@@ -36,6 +38,7 @@
             <a href="#" class="radisson-p"><p>5 Star</p></a>
             <a href="#" class="radisson-p"><p>New Delhi</p></a>
           </div>
+
           <div class="hotel-lalit">
             <img
               src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
@@ -46,6 +49,7 @@
             <p>4.5 Star</p>
             <p>New Delhi</p>
           </div>
+
           <div class="hotel-taj">
             <img
               src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
@@ -57,6 +61,7 @@
             <p>New Delhi</p>
           </div>
         </div>
+
         <div class="content-map">
           <div class="content-map-img">
             <img
@@ -65,13 +70,15 @@
               class="map-img"
             />
           </div>
-          <div class="content-map-text">
+
+          <div class="content-map-text" id="content-map">
             <p>MAP VIEW</p>
           </div>
         </div>
-      </div>
+      </section>
+
       <div class="footer">
-        <footer>
+        <footer class="list-footer">
           <div class="contact-ftr">
             <a href="contact.html">Contact US</a>
           </div>

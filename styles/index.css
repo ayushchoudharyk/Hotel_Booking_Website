@@ -1,0 +1,25 @@
+body {
+    background-color: #e0e0e0;
+}
+
+
+.search-bar {
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    width: auto;
+    height: 500px;
+}
+
+.core-img {
+    margin: 0 15%;
+}
+
+.delhi-img,
+.goa-img,
+.hyderabad-img,
+.kolkata-img {
+    padding: 4%;
+    border-radius: 25%;
+}

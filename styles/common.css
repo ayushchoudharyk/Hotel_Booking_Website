@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+
+.copy_right-p {
+    margin-bottom: 0;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+}
+
+.header,
+.footer {
+    background-color: #bc8f8f;
+}
+
+.delhi-img,
+.goa-img,
+.hyderabad-img,
+.kolkata-img {
+    height: 150px;
+    width: 150px;
+}
+
+.social-icon {
+    height: 20px;
+    width: 22px;
+}

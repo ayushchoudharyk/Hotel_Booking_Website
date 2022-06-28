@@ -52,4 +52,44 @@ p a {
   color: black;
 }
 
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  #list-view .hotel {
+    margin: 2%;
+    background-color: lightgray;
+    width: 1500px;
+    display: flex;
+  }
+  #list-view img {
+    width: 200px;
+    height: 150px;
+  }
+  article ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+}
 
+@media screen and (max-device-width: 576px) {
+  article ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .hotel {
+    display: flex;
+    flex-direction: column;
+  }
+  #list-view .hotel {
+    margin: 2%;
+    background-color: lightgray;
+    width: 450px;
+    display: flex;
+  }
+  #list-view img {
+    width: 450px;
+    height: 400px;
+  }
+}

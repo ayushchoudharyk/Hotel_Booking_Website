@@ -65,3 +65,23 @@ span {
 p {
   line-height: 1.6;
 }
+
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
+  article {
+    margin-top: 60px;
+    height: 800px;
+  }
+  article .content-first {
+    width: 500px;
+    height: 20%;
+  }
+  article .content-first img {
+    height: 160px;
+    width: 270px;
+  }
+}
+@media screen and (max-device-width: 576px) {
+  article .content-sec {
+    width: 590px;
+  }
+}

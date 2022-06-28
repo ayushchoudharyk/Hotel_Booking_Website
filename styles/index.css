@@ -1,13 +1,54 @@
 .core-img {
-  margin: 0 15%;
+  margin: 4rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
+.img-container {
+  position: relative;
+  width: auto;
+}
+.img-container:hover .overlay {
+  opacity: 1;
+}
 .delhi-img,
 .goa-img,
 .hyderabad-img,
 .kolkata-img {
-  padding: 4%;
+  display: block;
   border-radius: 25%;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.overlay {
+  border-radius: 25%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(40, 40, 40, 0.613);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
 }
 
 .search-bar {
@@ -19,11 +60,12 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-content: space-around;
+  /* align-content: space-around; */
 }
 
 .search_bar {
   height: 7%;
+  outline: none;
   border: 1px #ffffff00;
   background-color: #f1f1f1;
   padding-left: 10px;
@@ -32,9 +74,13 @@
   border-radius: 12px;
 }
 
-.core-img {
-  text-align: center;
+.btn-view_more {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: stretch;
 }
+
 .content {
   padding-top: 3.9rem;
 }

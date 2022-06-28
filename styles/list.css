@@ -2,17 +2,21 @@
   height: 250px;
   width: 250px;
 }
+
 .content {
   padding-top: 5rem;
 }
+
 .hotel-redisson,
 .hotel-lalit,
 .hotel-taj {
+  display: flex;
   margin: 2%;
-  background-color: rgb(132, 136, 139);
+  background-color: #d3d3d3;
   width: 40%;
   height: auto;
 }
+
 .content-list {
   display: block;
   text-decoration: none;
@@ -22,12 +26,22 @@
   font-weight: bolder;
   display: flex;
   justify-content: center;
-  gap: 7rem;
+  gap: 5rem;
 }
+
 .content-map {
   display: none;
 }
+
 .content-hotel-delhi {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 2rem;
+  justify-content: space-between;
+}
+
+.hotel_description {
+  display: flex;
+  margin-left: 1rem;
+  flex-direction: column;
 }

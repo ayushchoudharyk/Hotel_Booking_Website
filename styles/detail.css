@@ -1,19 +1,76 @@
 .redisson-img {
-  height: 500px;
+  height: 350px;
   width: 500px;
 }
+
 .content {
   padding-top: 5rem;
 }
 
 .content-redisson-img {
-  margin: 2% 4% 0 4%;
+  margin: 0 4% 0 4%;
 }
 
 .details_form-container {
   margin: 0 4% 1%;
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
 }
 
-.hotel_discription {
+.hotel_description {
   margin: 1% 4% 2%;
+}
+
+.content-redisson-img {
+  text-align: center;
+  width: 75%;
+}
+.form-container {
+  height: 100%;
+  width: 25%;
+  border-left: 1px solid black;
+}
+
+.details-form {
+  /* margin: 1rem auto;
+  display: flex;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  */
+  margin: 1rem 1rem;
+  /* display: flex; */
+  height: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+span {
+  display: block;
+  overflow: hidden;
+  padding: 0px 0px 19px 50px;
+}
+
+input {
+  float: left;
+  width: 70%;
+}
+
+label {
+  float: left;
+}
+
+.btn-book-now {
+  width: 7rem;
+  padding: 0.6rem;
+}
+.p-tag {
+  font-weight: bold;
+  font-family: cursive;
 }

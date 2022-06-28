@@ -29,9 +29,9 @@ a {
 .index-footer {
   display: flex;
   justify-content: space-between;
-  margin: auto 16px;
   align-items: center;
-  height: 50px;
+  margin: auto 2%;
+  height: 40px;
   align-content: flex-end;
   flex-wrap: wrap;
 }
@@ -48,11 +48,11 @@ a {
   font-size: 10px;
   margin: 0;
 }
-
-.logo-img,
-.login-tag,
-.contact_us,
-.social-icon {
+.login-tag {
+  margin-right: 2%;
+}
+.logo-img {
+  margin-left: 1%;
   width: 60px;
 }
 
@@ -72,6 +72,7 @@ a {
 .social-icon {
   height: 20px;
   width: 22px;
+  /* margin-right: 2%; */
 }
 
 .main-container {
@@ -82,3 +83,7 @@ a {
 .content {
   padding-bottom: 7rem;
 }
+/* 
+.contact_us {
+  margin-left: 2%;
+} */

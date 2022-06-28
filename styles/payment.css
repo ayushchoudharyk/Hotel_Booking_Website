@@ -1,7 +1,8 @@
 .radisson-img {
-  height: 500px;
-  width: 500px;
+  max-height: 300px;
+  max-width: 270px;
 }
+
 .content {
   padding-top: 5rem;
 }
@@ -17,7 +18,49 @@
 }
 
 .tariff-details {
-  border: 1px solid black;
   border-radius: 5px;
   padding: 1% 2%;
+}
+
+.content-details {
+  display: flex;
+}
+
+span {
+  display: block;
+  overflow: hidden;
+  padding: 0px 0px 19px 50px;
+}
+
+.hotel-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.book-radisson-detail {
+  background-color: rosybrown;
+  border-radius: 5px;
+  margin: 0 2% 2%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hotel-book-details {
+  display: flex;
+  width: 60%;
+
+  align-items: center;
+}
+.customer-book-details {
+  width: 50%;
+}
+.tariff-details {
+  width: 50%;
+}
+
+p {
+  line-height: 1.6;
 }

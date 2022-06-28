@@ -23,64 +23,77 @@
       </header>
 
       <section class="content">
-        <div class="content-redisson-img">
-          <img
-            class="redisson-img"
-            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-            alt="Redisson"
-          />
-        </div>
-
         <div class="redisson-text">
           <div class="details_form-container">
-            <form action="payment.html" class="details-form">
-              <label for="adults">Adults:</label>
-              <input
-                type="number"
-                name="adults"
-                id="adults"
-                value="1"
-                min="1"
-                required
-                autocomplete="off"
-              /><br />
-              <label for="name">Username:</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                required
-                autocomplete="off"
-              /><br />
-              <label for="date">From Date:</label>
-              <input
-                type="date"
-                name="date"
-                id="date"
-                required
-                autocomplete="off"
+            <div class="content-redisson-img">
+              <img
+                class="redisson-img"
+                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                alt="Redisson"
               />
-              <br />
-              <label for="date">To Date:</label>
-              <input
-                type="date"
-                name="date"
-                id="date"
-                required
-                autocomplete="off"
-              />
-              <br />
-              <label for="price">Total:</label>
-              <input type="text" name="total" id="price" maxlength="0" /><br />
-              <input type="submit" value="Book Now" />
-            </form>
+            </div>
+            <div class="form-container">
+              <form action="payment.html" class="details-form">
+                <label for="adults">Adults:</label>
+                <span>
+                  <input
+                    type="number"
+                    name="adults"
+                    id="adults"
+                    value="1"
+                    min="1"
+                    required
+                    autocomplete="off"
+                  />
+                </span>
+                <br />
+                <label for="name">Name:</label>
+                <span>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    autocomplete="off"
+                /></span>
+                <br />
+                <label for="date">From Date:</label>
+                <span>
+                  <input
+                    type="date"
+                    name="date"
+                    id="date"
+                    required
+                    autocomplete="off"
+                  />
+                </span>
+                <br />
+                <label for="date">To Date:</label>
+                <span>
+                  <input
+                    type="date"
+                    name="date"
+                    id="date"
+                    required
+                    autocomplete="off"
+                  />
+                </span>
+                <br />
+                <label for="price">Total:</label>
+                <span>
+                  <input type="text" name="total" id="price" maxlength="0"
+                /></span>
+                <br />
+                <input class="btn-book-now" type="submit" value="Book Now" />
+              </form>
+            </div>
           </div>
 
-          <div class="hotel_discription">
+          <div class="hotel_description">
             <h2>Redisson Blu Hotel</h2>
-            <p>RATING</p>
+            <p class="p-tag">RATING</p>
             <p>5 Star</p>
-            <p>AMENITIES</p>
+            <p class="p-tag">AMENITIES</p>
             <ul>
               <li>Room Service</li>
               <li>Restaurant</li>
@@ -88,7 +101,7 @@
               <li>Fitness Center</li>
               <li>Pool</li>
             </ul>
-            <h5>DESCRIPTION</h5>
+            <p class="p-tag">DESCRIPTION</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               voluptates pariatur enim voluptate. Maxime similique atque amet

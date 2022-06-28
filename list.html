@@ -7,6 +7,10 @@
     <title>List</title>
     <link rel="stylesheet" href="styles/list.css" />
     <link rel="stylesheet" href="styles/common.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main-container">
@@ -14,15 +18,13 @@
         <a href="index.html">
           <img class="logo-img" src="assests/images/logo.png" alt="logo"
         /></a>
-        <a href="login.html">Login</a>
+        <a class="login-tag" href="login.html">Login</a>
       </header>
 
       <section class="content">
         <div class="content-list">
-          <ul>
-            <a href="#hotel_view"><li>List View</li></a>
-            <a href="#content-map"><li>Map View</li></a>
-          </ul>
+          <a href="#hotel_view">List View</a>
+          <a href="#content-map">Map View</a>
         </div>
 
         <div class="content-hotel-delhi" id="hotel_view">
@@ -34,7 +36,9 @@
                 class="hotel-img"
               />
             </a>
-            <a href="#" class="radisson-h3"><h3>Radisson Blu Hotel</h3></a>
+            <a href="detail.html" class="radisson-h3"
+              ><h3>Radisson Blu Hotel</h3></a
+            >
             <a href="#" class="radisson-p"><p>5 Star</p></a>
             <a href="#" class="radisson-p"><p>New Delhi</p></a>
           </div>
@@ -78,10 +82,11 @@
       </section>
 
       <div class="footer">
-        <footer class="list-footer">
+        <footer class="index-footer">
           <div class="contact-ftr">
-            <a href="contact.html">Contact US</a>
+            <a class="contact_us" href="contact.html">Contact US</a>
           </div>
+
           <div class="social-icons">
             <a href="https://www.facebook.com/"
               ><img
@@ -102,10 +107,12 @@
                 alt="twitter"
             /></a>
           </div>
-          <div class="copy_right-ftr">
-            <p class="copy_right-p">&#169; 2022 ROOM SEARCH PVT.LTD.</p>
-          </div>
         </footer>
+        <div class="copy_right-ftr">
+          <footer>
+            <p class="copy_right-p">&#169; 2022 ROOM SEARCH PVT.LTD.</p>
+          </footer>
+        </div>
       </div>
     </div>
   </body>

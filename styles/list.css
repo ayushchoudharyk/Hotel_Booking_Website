@@ -1,17 +1,33 @@
-body {
-    background-color: #e0e0e0;
-}
-
 .hotel-img {
-    height: 250px;
-    width: 250px;
+  height: 250px;
+  width: 250px;
 }
-
+.content {
+  padding-top: 5rem;
+}
 .hotel-redisson,
 .hotel-lalit,
 .hotel-taj {
-    margin: 2%;
-    background-color: rgb(132, 136, 139);
-    width: 40%;
-    height: auto;
+  margin: 2%;
+  background-color: rgb(132, 136, 139);
+  width: 40%;
+  height: auto;
+}
+.content-list {
+  display: block;
+  text-decoration: none;
+}
+
+.content-list {
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+}
+.content-map {
+  display: none;
+}
+.content-hotel-delhi {
+  display: flex;
+  flex-wrap: wrap;
 }

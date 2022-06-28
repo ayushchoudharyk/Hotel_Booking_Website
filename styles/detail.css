@@ -1,20 +1,19 @@
 .redisson-img {
-    height: 500px;
-    width: 500px;
+  height: 500px;
+  width: 500px;
 }
-
-body {
-    background-color: #e0e0e0;
+.content {
+  padding-top: 5rem;
 }
 
 .content-redisson-img {
-    margin: 2% 4% 0 4%;
+  margin: 2% 4% 0 4%;
 }
 
 .details_form-container {
-    margin: 0 4% 1%;
+  margin: 0 4% 1%;
 }
 
 .hotel_discription {
-    margin: 1% 4% 2%;
+  margin: 1% 4% 2%;
 }

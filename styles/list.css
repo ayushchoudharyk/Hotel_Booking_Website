@@ -29,10 +29,6 @@
   gap: 5rem;
 }
 
-.content-map {
-  display: none;
-}
-
 .content-hotel-delhi {
   display: flex;
   flex-wrap: wrap;
@@ -44,4 +40,16 @@
   display: flex;
   margin-left: 1rem;
   flex-direction: column;
+  margin-top: 2rem;
 }
+
+.hotel:hover {
+  background-color: rosybrown;
+}
+h3 a,
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+

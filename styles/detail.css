@@ -12,12 +12,12 @@
 }
 
 .details_form-container {
-  margin: 0 4% 1%;
+  margin: 2% 4% 1%;
   display: flex;
   border: 2px solid black;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 465px;
 }
 
 .hotel_description {
@@ -67,10 +67,15 @@ label {
 }
 
 .btn-book-now {
+  margin-left: 6rem;
   width: 7rem;
   padding: 0.6rem;
 }
 .p-tag {
   font-weight: bold;
   font-family: cursive;
+}
+
+.fa {
+  padding: 0;
 }

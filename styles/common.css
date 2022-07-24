@@ -48,17 +48,21 @@ a {
 .social-icons {
   align-items: center;
 }
+
 .copy_right-ftr {
   padding-bottom: 10px;
   text-align: center;
 }
+
 .copy_right-p {
   font-size: 10px;
   margin: 0;
 }
+
 .login-tag {
   margin-right: 2%;
 }
+
 .logo-img {
   margin-left: 1%;
   width: 60px;
@@ -67,14 +71,6 @@ a {
 .header,
 .footer {
   background-color: #bc8f8f;
-}
-
-.delhi-img,
-.goa-img,
-.hyderabad-img,
-.kolkata-img {
-  height: 150px;
-  width: 150px;
 }
 
 .social-icon {
@@ -91,6 +87,7 @@ a {
 .content {
   padding-bottom: 7rem;
 }
+
 /* 
 .contact_us {
   margin-left: 2%;
@@ -115,6 +112,7 @@ a {
     width: 105px;
     height: 35px;
   }
+
   footer p {
     position: absolute;
     left: 38%;

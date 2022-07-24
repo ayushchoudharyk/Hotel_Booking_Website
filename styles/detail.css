@@ -39,6 +39,7 @@
   text-align: center;
   width: 75%;
 }
+
 .form-container {
   height: 100%;
   width: 25%;
@@ -62,6 +63,7 @@
   flex-wrap: wrap;
   align-content: space-around;
 }
+
 span {
   display: block;
   overflow: hidden;
@@ -82,6 +84,7 @@ label {
   width: 7rem;
   padding: 0.6rem;
 }
+
 .p-tag {
   font-weight: bold;
   font-family: cursive;
@@ -96,6 +99,7 @@ label {
     margin-top: 14%;
     margin-bottom: 6%;
   }
+
   article .img-part {
     /* margin-top: 2%; */
     /* margin-left: 2%; */
@@ -109,11 +113,13 @@ label {
     justify-content: center;
     align-items: center;
   }
+
   article img {
     height: 200px;
     width: 30%;
     z-index: -1;
   }
+
   article .desc-part {
     margin-right: 2%;
     /* margin-left: 4%; */
@@ -130,23 +136,28 @@ label {
   article {
     height: 1250px;
   }
+
   article .img-part {
     margin-top: 30px;
   }
+
   article img {
     height: 200px;
     width: 100%;
     z-index: -1;
   }
+
   .container {
     display: flex;
     flex-direction: column;
     height: 100%;
   }
+
   article .desc-part {
     margin-top: 50px;
     width: 400px;
   }
+
   article .description {
     margin-top: 300px;
   }

@@ -6,6 +6,7 @@
 .content {
   padding-top: 5rem;
 }
+
 .content-details {
   background-color: rgb(132, 136, 139);
   width: 50%;
@@ -49,15 +50,18 @@ span {
   flex-wrap: wrap;
   align-items: center;
 }
+
 .hotel-book-details {
   display: flex;
   width: 60%;
 
   align-items: center;
 }
+
 .customer-book-details {
   width: 50%;
 }
+
 .tariff-details {
   width: 50%;
 }
@@ -71,15 +75,18 @@ p {
     margin-top: 60px;
     height: 800px;
   }
+
   article .content-first {
     width: 500px;
     height: 20%;
   }
+
   article .content-first img {
     height: 160px;
     width: 270px;
   }
 }
+
 @media screen and (max-device-width: 576px) {
   article .content-sec {
     width: 590px;

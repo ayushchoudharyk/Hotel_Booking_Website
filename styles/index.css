@@ -9,14 +9,15 @@
   position: relative;
   width: auto;
 }
+
 .img-container:hover .overlay {
   opacity: 1;
 }
-.delhi-img,
-.goa-img,
-.hyderabad-img,
-.kolkata-img {
+
+.core_main-img {
   display: block;
+  height: 150px;
+  width: 150px;
   border-radius: 25%;
   box-shadow: 10px 10px 10px grey;
 }
@@ -86,12 +87,14 @@
 }
 
 @media screen and (min-device-width: 576px) and (max-device-width: 768px) {
+
   /* STYLES HERE */
   article {
     height: 1000px;
     display: flex;
     flex-direction: column;
   }
+
   article .cards {
     display: grid;
     grid-template-columns: auto auto;
@@ -113,12 +116,14 @@
     width: 150px;
   }
 }
+
 @media screen and (max-device-width: 576px) {
   article {
     height: 1280px;
     display: flex;
     flex-direction: column;
   }
+
   article .search form input {
     width: 250px;
     border: 1px solid white;
@@ -128,6 +133,7 @@
     border-radius: 12px;
     outline: none;
   }
+
   article .cards {
     /* grid-template-columns: auto; */
     justify-content: space-evenly;
@@ -151,6 +157,7 @@
     margin-bottom: 20px;
   }
 }
+
 #none {
   display: none;
 }

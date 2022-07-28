@@ -31,6 +31,10 @@
   height: 465px;
 }
 
+#book-now {
+  margin-top: 5%;
+}
+
 .hotel_description {
   margin: 1% 4% 2%;
 }
@@ -43,6 +47,8 @@
 .form-container {
   height: 100%;
   width: 25%;
+  margin-right: 2%;
+  flex-grow: 1;
   border-left: 1px solid black;
 }
 

@@ -1,125 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>List</title>
-    <link rel="stylesheet" href="styles/list.css" />
-    <link rel="stylesheet" href="styles/common.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="scripts/common.js"></script>
-  </head>
 
-  <body>
-    <div class="main-container">
-      <my-header class="header" id="header"></my-header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>List</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles/list.css" />
+  <link rel="stylesheet" href="styles/common.css" />
+</head>
 
-      <section class="content">
-        <div class="content-list">
-          <a href="#hotel_view" class="btn btn-primary" active>List View</a>
-          <a href="#map-view" class="btn btn-secondary">Map View</a>
-        </div>
+<body>
+  <div class="main-container">
+    <my-header class="header" id="header"></my-header>
 
-        <div class="content-hotel-delhi" id="hotel_view">
-          <div class="hotel-redisson hotel">
-            <div class="hotel_img-content">
-              <a href="detail.html">
-                <img
-                  src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                  alt="Radisson Blu Hotel"
-                  class="hotel-img"
-                />
-              </a>
-            </div>
-            <div class="hotel_description">
-              <h3>
-                <a href="detail.html" class="radisson-h3">Radisson Blu Hotel</a>
-              </h3>
-              <p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-              </p>
-              <p><a href="#" class="radisson-p">New Delhi</a></p>
-            </div>
+    <section class="content">
+      <div class="content-list">
+        <a href="#hotel_view" class="btn btn-primary" active>List View</a>
+        <a href="#map-view" class="btn btn-secondary">Map View</a>
+      </div>
+
+      <div class="content-hotel-delhi" id="hotel_view">
+        <div class="hotel-redisson hotel">
+          <div class="hotel_img-content">
+            <a href="detail.html">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                alt="Radisson Blu Hotel" class="hotel-img" />
+            </a>
           </div>
-
-          <div class="hotel-lalit hotel">
-            <div class="hotel_img-content">
-              <img
-                src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
-                alt="lalit Hotel"
-                class="hotel-img"
-              />
-            </div>
-
-            <div class="hotel_description hotel">
-              <h3>The Lalit New Delhi</h3>
-              <p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star-half-full checked"></span>
-                <span class="fa fa-star"></span>
-              </p>
-              <p>New Delhi</p>
-            </div>
-          </div>
-
-          <div class="hotel-taj hotel">
-            <div class="hotel_img-content">
-              <img
-                src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
-                alt="Taj Palace"
-                class="hotel-img"
-              />
-            </div>
-            <div class="hotel_description">
-              <h3>Taj Palace</h3>
-              <p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-              </p>
-              <p>New Delhi</p>
-            </div>
+          <div class="hotel_description">
+            <h3>
+              <a href="detail.html" class="radisson-h3">Radisson Blu Hotel</a>
+            </h3>
+            <p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+            <p><a href="#" class="radisson-p">New Delhi</a></p>
           </div>
         </div>
 
-        <div id="map-view" class="">
-          <img
-            src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
-            alt=""
-          />
-        </div>
-      </section>
+        <div class="hotel-lalit hotel">
+          <div class="hotel_img-content">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="lalit Hotel"
+              class="hotel-img" />
+          </div>
 
-      <my-footer></my-footer>
-    </div>
-  </body>
+          <div class="hotel_description hotel">
+            <h3>The Lalit New Delhi</h3>
+            <p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star-half-full checked"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p>New Delhi</p>
+          </div>
+        </div>
+
+        <div class="hotel-taj hotel">
+          <div class="hotel_img-content">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="Taj Palace"
+              class="hotel-img" />
+          </div>
+          <div class="hotel_description">
+            <h3>Taj Palace</h3>
+            <p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p>New Delhi</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="map-view" class="">
+        <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="" />
+      </div>
+    </section>
+
+    <my-footer></my-footer>
+  </div>
+  <script src="scripts/common.js"></script>
+  <script src="scripts/list.js"></script>
+</body>
+
 </html>

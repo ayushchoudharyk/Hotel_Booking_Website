@@ -1,75 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Payment</title>
-    <link rel="stylesheet" href="styles/payment.css" />
-    <link rel="stylesheet" href="styles/common.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="scripts/common.js"></script>
-  </head>
 
-  <body>
-    <div class="main-container">
-      <my-header class="header" id="header"></my-header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment</title>
+  <link rel="stylesheet" href="styles/payment.css" />
+  <link rel="stylesheet" href="styles/common.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</head>
 
-      <section class="content">
-        <div class="content-details">
-          <div class="content-radisson-img">
-            <img
-              class="radisson-img"
-              src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-              alt="Radisson"
-            />
+<body>
+  <div class="main-container">
+    <my-header class="header" id="header"></my-header>
+
+    <section class="content">
+      <div class="content-details">
+        <div class="content-radisson-img">
+          <img class="radisson-img"
+            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson" />
+        </div>
+        <div class="hotel-details">
+          <h1>Radisson Blu Hotel</h1>
+          <p>#38 of 1,289 hotels in New Delhi</p>
+          <p>National Highway 8, New Delhi 110017 India</p>
+        </div>
+      </div>
+
+      <div class="book-radisson-detail">
+        <div class="hotel-book-details">
+          <div class="customer-book-details">
+            <p><b>Name:</b> John Doe</p>
+            <p><b>Number of Adults:</b> 2</p>
+            <p><b>Check-in Date:</b> 06/06/2020</p>
+            <p><b>Check-out Date:</b> 08/06/2020</p>
           </div>
-          <div class="hotel-details">
-            <h1>Radisson Blu Hotel</h1>
-            <p>#38 of 1,289 hotels in New Delhi</p>
-            <p>National Highway 8, New Delhi 110017 India</p>
+
+          <div class="tariff-details">
+            <p>
+              <strong>Tariff Breakdown:</strong> Rs.1000 x 2 Adults x 5 Nights
+            </p>
+            <p><strong>Total Amount:</strong> Rs.10000</p>
           </div>
         </div>
-
-        <div class="book-radisson-detail">
-          <div class="hotel-book-details">
-            <div class="customer-book-details">
-              <p><b>Name:</b> John Doe</p>
-              <p><b>Number of Adults:</b> 2</p>
-              <p><b>Check-in Date:</b> 06/06/2020</p>
-              <p><b>Check-out Date:</b> 08/06/2020</p>
-            </div>
-
-            <div class="tariff-details">
-              <p>
-                <strong>Tariff Breakdown:</strong> Rs.1000 x 2 Adults x 5 Nights
-              </p>
-              <p><strong>Total Amount:</strong> Rs.10000</p>
-            </div>
-          </div>
-          <button type="button" class="btn btn-success" disabled>
+        <a href="#" id="pay-now">
+          <button type="button" class="btn btn-success" id="pay_now-Btn" >
             Pay Now
           </button>
-        </div>
-      </section>
+        </a>
+      </div>
+    </section>
 
-      <my-footer></my-footer>
-    </div>
-  </body>
+    <my-footer></my-footer>
+  </div>
+  <script src="scripts/common.js"></script>
+  <script src="scripts/payment.js"></script>
+</body>
+
 </html>

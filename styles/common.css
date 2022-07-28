@@ -68,6 +68,15 @@ a {
   width: 60px;
 }
 
+#loginBtn {
+  margin-right: 2%;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .header,
 .footer {
   background-color: #bc8f8f;

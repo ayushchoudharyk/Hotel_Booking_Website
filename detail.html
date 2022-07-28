@@ -1,191 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Details</title>
-    <link rel="stylesheet" href="styles/detail.css" />
-    <link rel="stylesheet" href="styles/common.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="scripts/common.js"></script>
-  </head>
 
-  <body>
-    <div class="main-container">
-      <my-header class="header" id="header"></my-header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Details</title>
+  <link rel="stylesheet" href="styles/detail.css" />
+  <link rel="stylesheet" href="styles/common.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
 
-      <section class="content">
-        <div class="redisson-text">
-          <div class="details_form-container">
-            <div class="content-redisson-img">
-              <div
-                id="carouselExampleControls"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      class="main-img"
-                      src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="main-img"
-                      src="https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="main-img"
-                      src="https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
+<body>
+  <div class="main-container">
+    <my-header class="header" id="header"></my-header>
+
+    <section class="content">
+      <div class="redisson-text">
+        <div class="details_form-container">
+          <div class="content-redisson-img">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="main-img"
+                    src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                    class="d-block w-100" alt="..." />
                 </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleControls"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleControls"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item">
+                  <img class="main-img" src="https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg"
+                    class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img class="main-img"
+                    src="https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg"
+                    class="d-block w-100" alt="..." />
+                </div>
               </div>
-            </div>
-            <div class="form-container">
-              <form action="payment.html" class="details-form">
-                <label for="adults">Adults:</label>
-                <span>
-                  <input
-                    type="number"
-                    name="adults"
-                    id="adults"
-                    value="1"
-                    min="1"
-                    required
-                    autocomplete="off"
-                  />
-                </span>
-                <br />
-                <label for="name">Name:</label>
-                <span>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    required
-                    autocomplete="off"
-                /></span>
-                <br />
-                <label for="date">From Date:</label>
-                <span>
-                  <input
-                    type="date"
-                    name="date"
-                    id="date"
-                    required
-                    autocomplete="off"
-                  />
-                </span>
-                <br />
-                <label for="date">To Date:</label>
-                <span>
-                  <input
-                    type="date"
-                    name="date"
-                    id="date"
-                    required
-                    autocomplete="off"
-                  />
-                </span>
-                <br />
-                <label for="price">Total:</label>
-                <span>
-                  <input type="text" name="total" id="price" maxlength="0"
-                /></span>
-                <br />
-                <input
-                  class="btn-book-now btn btn-outline-success"
-                  type="submit"
-                  value="Book Now"
-                />
-              </form>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
-
-          <div class="hotel_description">
-            <h2>Redisson Blu Hotel</h2>
-            <p class="p-tag">RATING</p>
-            <p>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-            </p>
-            <p class="p-tag">AMENITIES</p>
-            <ul>
-              <li>Room Service</li>
-              <li>Restaurant</li>
-              <li>Business Center</li>
-              <li>Fitness Center</li>
-              <li>Pool</li>
-            </ul>
-            <p class="p-tag">DESCRIPTION</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              voluptates pariatur enim voluptate. Maxime similique atque amet
-              illo incidunt doloremque, nisi ad in iusto. Quis minus nam
-              praesentium corrupti amet.
-            </p>
+          <div class="form-container">
+            <form action="payment.html" class="details-form" autocomplete="off">
+              <label for="adults">Adults:</label>
+              <span>
+                <input type="number" name="adults" id="adults" value="1" min="1" oninput="updatePrice()" required />
+              </span>
+              <br />
+              <label for="name">Name:</label>
+              <span>
+                <input type="text" name="name" id="name" required /></span>
+              <br />
+              <label for="fromFate">From Date:</label>
+              <span>
+                <input type="date" name="fromFate" id="fromDate" oninput="updatePrice()" required />
+              </span>
+              <br />
+              <label for="toDate">To Date:</label>
+              <span>
+                <input type="date" name="toDate" id="toDate" required oninput="updatePrice()" />
+              </span>
+              <br />
+              <label for="price">Total:</label>
+              <span>
+                <input type="text" type="text" name="price" id="totalPrice" readonly /></span>
+              <input class="inner" type="hidden" id="id" name="id">
+              <br />
+              <input class="btn-book-now btn btn-outline-success" type="submit" value="Book Now" id="book-now" />
+            </form>
           </div>
         </div>
-      </section>
-      <my-footer></my-footer>
-    </div>
-  </body>
+
+        <div class="hotel_description">
+          <h2>Redisson Blu Hotel</h2>
+          <p class="p-tag">RATING</p>
+          <p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </p>
+          <p class="p-tag">AMENITIES</p>
+          <ul>
+            <li>Room Service</li>
+            <li>Restaurant</li>
+            <li>Business Center</li>
+            <li>Fitness Center</li>
+            <li>Pool</li>
+          </ul>
+          <p class="p-tag">DESCRIPTION</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            voluptates pariatur enim voluptate. Maxime similique atque amet
+            illo incidunt doloremque, nisi ad in iusto. Quis minus nam
+            praesentium corrupti amet.
+          </p>
+        </div>
+      </div>
+    </section>
+    <my-footer></my-footer>
+  </div>
+  <script src="scripts/common.js"></script>
+  <script src="scripts/detail.js"></script>
+</body>
+
 </html>

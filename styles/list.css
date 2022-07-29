@@ -1,95 +1,102 @@
-.hotel-img {
-  height: 250px;
+.hotel-image-small {
+  height: 200px;
   width: 250px;
 }
 
-.content {
-  padding-top: 5rem;
+.hotel-name-rating {
+  padding: 3% 3% !important;
 }
 
-.hotel-redisson,
-.hotel-lalit,
-.hotel-taj {
-  display: flex;
-  margin: 2%;
-  background-color: #d3d3d3;
+.hotel {
+  gap: 1rem;
+  margin-top: 10px;
+  margin: 4% 5% 0% 5%;
+  background-color: lightgrey;
   width: 40%;
-  height: auto;
-}
-
-.content-list {
-  display: block;
-  text-decoration: none;
-}
-
-.content-list {
-  font-weight: bolder;
+  float: left;
   display: flex;
-  justify-content: center;
-  gap: 5rem;
-}
-
-.content-hotel-delhi {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 2rem;
-  justify-content: space-between;
-}
-
-.hotel_description {
-  display: flex;
-  margin-left: 1rem;
-  flex-direction: column;
-  margin-top: 2rem;
+  justify-content: start;
+  align-content: center;
+  max-height: 200px;
 }
 
 .hotel:hover {
   background-color: rosybrown;
 }
-h3 a,
-p a {
-  text-decoration: none;
-  color: black;
+
+#list-container {
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  /* margin-bottom: 6%; */
 }
 
-@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
-  #list-view .hotel {
-    margin: 2%;
-    background-color: lightgray;
-    width: 1500px;
-    display: flex;
-  }
-  #list-view img {
-    width: 200px;
-    height: 150px;
-  }
-  article ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-top: 50px;
-  }
+#list-map {
+  position: relative;
+  top: 0%;
 }
 
-@media screen and (max-device-width: 576px) {
-  article ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-top: 50px;
+#select-list {
+  position: absolute;
+  left: 42%;
+  font-weight: bold;
+}
+
+#select-map {
+  position: absolute;
+  left: 50%;
+  font-weight: bold;
+}
+
+#pills-tab {
+  justify-content: center;
+}
+
+#map {
+  height: 82vh;
+  margin-top: 2%;
+}
+
+.content-list {
+  padding-top: 5rem;
+  justify-content: center;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 576px) {
+  #list-container {
+    margin-bottom: 150%;
   }
+
+  #pills-tab {
+    padding-top: 15%;
+  }
+
   .hotel {
-    display: flex;
+    width: 90%;
     flex-direction: column;
   }
-  #list-view .hotel {
-    margin: 2%;
-    background-color: lightgray;
-    width: 450px;
-    display: flex;
+
+  .hotel-image-small {
+    width: 100%;
   }
-  #list-view img {
-    width: 450px;
-    height: 400px;
+
+  #map-view>img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  #pills-tab {
+    padding-top: 5%;
+  }
+
+  .hotel {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  #map-view>img {
+    width: 100%;
   }
 }

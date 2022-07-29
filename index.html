@@ -32,13 +32,20 @@
       <my-header class="header" id="header"></my-header>
 
       <section class="content">
-        <form class="search-bar" autocomplete="off">
-          <input class="search_bar" type="text" placeholder="City" />
-        </form>
+        <div class="search-bar" id="search-bar">
+          <form class="search-bar" autocomplete="off">
+            <input
+              id="search-input"
+              class="search_bar"
+              type="text"
+              placeholder="City"
+            />
+          </form>
+        </div>
 
         <!-- <div class=" showContent "> -->
         <div class="core-img">
-          <a href="list.html">
+          <a href="list.html?city=Delhi">
             <div class="img-container">
               <img
                 class="core_main-img"
@@ -51,43 +58,49 @@
             </div>
           </a>
 
-          <div class="img-container">
-            <img
-              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
-              alt="Goa"
-              class="core_main-img"
-            />
-            <div class="overlay">
-              <div class="text">Goa</div>
+          <a href="list.html?city=Goa">
+            <div class="img-container">
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+                alt="Goa"
+                class="core_main-img"
+              />
+              <div class="overlay">
+                <div class="text">Goa</div>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="img-container">
-            <img
-              src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
-              alt="Hyderabad"
-              class="core_main-img"
-            />
-            <div class="overlay">
-              <div class="text">Hyderabad</div>
+          <a href="list.html?city=Hyderabad">
+            <div class="img-container">
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+                alt="Hyderabad"
+                class="core_main-img"
+              />
+              <div class="overlay">
+                <div class="text">Hyderabad</div>
+              </div>
             </div>
-          </div>
+          </a>
 
-          <div class="img-container">
-            <img
-              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-              alt="Kolkata"
-              class="core_main-img"
-            />
-            <div class="overlay">
-              <div class="text">Kolkata</div>
+          <a href="list.html?city=Kolkata">
+            <div class="img-container">
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+                alt="Kolkata"
+                class="core_main-img"
+              />
+              <div class="overlay">
+                <div class="text">Kolkata</div>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
 
         <div id="view-more-city-cards">
           <div class="core-img">
-            <a href="list.html">
+            <a href="list.html?city=Chennai">
               <div class="img-container">
                 <img
                   class="core_main-img"
@@ -100,42 +113,48 @@
               </div>
             </a>
 
-            <div class="img-container">
-              <img
-                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg"
-                alt="Agra"
-                class="core_main-img"
-              />
-              <div class="overlay">
-                <div class="text">Agra</div>
+            <a href="list.html?city=Agra">
+              <div class="img-container">
+                <img
+                  src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg"
+                  alt="Agra"
+                  class="core_main-img"
+                />
+                <div class="overlay">
+                  <div class="text">Agra</div>
+                </div>
               </div>
-            </div>
+            </a>
 
-            <div class="img-container">
-              <img
-                src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg"
-                alt="Jaipur"
-                class="core_main-img"
-              />
-              <div class="overlay">
-                <div class="text">Jaipur</div>
+            <a href="list.html?city=Jaipur">
+              <div class="img-container">
+                <img
+                  src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg"
+                  alt="Jaipur"
+                  class="core_main-img"
+                />
+                <div class="overlay">
+                  <div class="text">Jaipur</div>
+                </div>
               </div>
-            </div>
+            </a>
 
-            <div class="img-container">
-              <img
-                src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg"
-                alt="Bengaluru"
-                class="core_main-img"
-              />
-              <div class="overlay">
-                <div class="text">Bengaluru</div>
+            <a href="list.html?city=Bengaluru">
+              <div class="img-container">
+                <img
+                  src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg"
+                  alt="Bengaluru"
+                  class="core_main-img"
+                />
+                <div class="overlay">
+                  <div class="text">Bengaluru</div>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
 
-        <div class="anchor btn-view">
+        <div class="btn-view">
           <a id="view-more">
             <button
               class="more-Btn btn btn-secondary btn-view_more"

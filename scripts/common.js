@@ -8,6 +8,7 @@ let displayLoader = () => {
   document.getElementById('loader').style.visibility = 'visible';
 };
 
+
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<a href="index.html" class="header-logo">

@@ -80,6 +80,7 @@ let fetchHotelPhotosAPI = () => {
         div.appendChild(image);
         carouselParentElement.appendChild(div);
       }
+      disableLoader();
     }
   });
   xhr.open(

@@ -1,3 +1,13 @@
+let disableLoader = () => {
+  document.getElementById('loader').style.visibility = 'hidden';
+  document.getElementsByTagName('body')[0].style.visibility = 'visible';
+};
+
+let displayLoader = () => {
+  document.getElementsByTagName('body')[0].style.visibility = 'hidden';
+  document.getElementById('loader').style.visibility = 'visible';
+};
+
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<a href="index.html" class="header-logo">

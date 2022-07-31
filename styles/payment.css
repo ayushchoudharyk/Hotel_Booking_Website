@@ -1,87 +1,78 @@
-.radisson-img {
+.content {
+  padding-top: 5rem;
+}
+
+p,
+#hotel-name {
+  line-height: 1.6;
+  margin-left: 1rem;
+}
+
+#hotel-details {
+  background-color: rgb(132, 136, 139);
+  width: 60%;
+  height: 20%;
+  margin: 2% auto;
+  display: flex;
+  align-items: center;
+}
+
+#payment-container {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.hotel-image {
   max-height: 300px;
   max-width: 270px;
 }
 
-.content {
-  padding-top: 5rem;
-}
-.content-details {
-  background-color: rgb(132, 136, 139);
-  width: 50%;
-  height: 20%;
-  margin: 2% auto;
-}
-
-.hotel-book-details {
-  margin: 2%;
-}
-
-.tariff-details {
-  border-radius: 5px;
-  padding: 1% 2%;
-}
-
-.content-details {
+#customer-payment-details {
   display: flex;
-}
-
-span {
-  display: block;
-  overflow: hidden;
-  padding: 0px 0px 19px 50px;
-}
-
-.hotel-details {
-  display: flex;
-  flex-direction: column;
-  margin-left: 2rem;
-  margin-top: 2rem;
-}
-
-.book-radisson-detail {
-  background-color: rosybrown;
-  border-radius: 5px;
-  margin: 0 2% 2%;
-  border: 1px solid black;
-  display: flex;
+  align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.hotel-book-details {
-  display: flex;
-  width: 60%;
-
-  align-items: center;
-}
-.customer-book-details {
-  width: 50%;
-}
-.tariff-details {
-  width: 50%;
+  padding: 2%;
+  border: black 1px solid;
+  border-radius: 5px;
+  margin: 0% 2%;
+  background-color: rosybrown;
 }
 
-p {
-  line-height: 1.6;
+@media screen and (max-width: 576px) {
+  #hotel-details {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  #payment-container {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #pay-now {
+    align-self: center;
+  }
+
+  #customer-payment-details {
+    align-items: normal;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .hotel-name-rating {
+    text-align: center;
+  }
 }
 
-@media screen and (min-device-width: 576px) and (max-device-width: 768px) {
-  article {
-    margin-top: 60px;
-    height: 800px;
-  }
-  article .content-first {
-    width: 500px;
-    height: 20%;
-  }
-  article .content-first img {
-    height: 160px;
-    width: 270px;
-  }
-}
-@media screen and (max-device-width: 576px) {
-  article .content-sec {
-    width: 590px;
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  #hotel-details {
+    width: 80%;
+    margin: 5% auto;
   }
 }

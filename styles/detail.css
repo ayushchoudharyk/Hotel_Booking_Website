@@ -3,7 +3,7 @@
   padding: 1%;
   text-align: center;
   border: 1px solid black;
-  max-height: 400px;
+  max-height: 500px;
 }
 
 #slideshow-container {
@@ -60,7 +60,7 @@
 
 .carousel-control-next-icon:after {
   content: '>';
-  font-size: 55px;
+  font-size: 50px;
   color: black;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .carousel-image {
-  max-height: 370px;
+  max-height: 450px;
 }
 
 @media screen and (max-width: 576px) {

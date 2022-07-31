@@ -1,3 +1,4 @@
+let urlParams = new URLSearchParams(window.location.search);
 const API_URL = 'https://travel-advisor.p.rapidapi.com/';
 const tripAdvisorHost = 'travel-advisor.p.rapidapi.com';
 const tripAdvisorKey = 'b69a63648cmsheb7e07bb9716cc8p173af1jsn9786c53aadf0';
@@ -32,7 +33,7 @@ let fetchHotelDetailAPI = () => {
       document.getElementById('hotel-name').innerText = result.name;
       let amenities = result.amenities;
       let i = 0;
-      for (; i < Math.min(amenities.length, 10); i++) {
+      for (i; i < Math.min(amenities.length, 10); i++) {
         let liElement = document.createElement('li');
         liElement.innerText = amenities[i].name;
         document.getElementById('amenities').appendChild(liElement);
@@ -67,7 +68,7 @@ let fetchHotelPhotosAPI = () => {
       let result = JSON.parse(this.responseText).data;
       let size = Math.min(result.length, 5);
       let i = 0;
-      for ( i < size; i++) {
+      for (; i < size; i++) {
         let div = document.createElement('div');
         div.classList.add('carousel-item');
         if (i == 0) div.classList.add('active');
@@ -79,7 +80,6 @@ let fetchHotelPhotosAPI = () => {
         div.appendChild(image);
         carouselParentElement.appendChild(div);
       }
-      disableLoader();
     }
   });
   xhr.open(

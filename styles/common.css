@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-color: #e0e0e0;
   font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
 }
 
 .header-logo {
@@ -94,13 +95,9 @@ a {
 }
 
 .content {
-  padding-bottom: 7rem;
+  padding-top: 1rem;
+  overflow: hidden;
 }
-
-/* 
-.contact_us {
-  margin-left: 2%;
-} */
 
 .checked {
   color: orange;
